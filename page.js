@@ -70,7 +70,7 @@ const page4Content = `
 <p>&nbsp;</p>
 <p style=" margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 11pt; font-family: Courier New,sans-serif; color: #ff0000; background-color: #000000; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">I think this was really well thought out.</span></strong></p>
 <p>&nbsp;</p>
-<p style=" margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Courier New,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Thank you (&bdquo;&bull; ᴗ &bull;&bdquo;)</span></p>
+<p style=" margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 11pt; font-family: Courier New,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Thank you (&bdquo;&bull; v &bull;&bdquo;)</span></p>
 <p>&nbsp;</p>
 <p style=" margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 11pt; font-family: Courier New,sans-serif; color: #ff0000; background-color: #000000; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Actually no I wouldn&rsquo;t say that I haven&rsquo;t read it yet. It&rsquo;s rude to put words in my mouth. I&rsquo;m not supposed to do that. So I&rsquo;m going to have a completely unbiased opinion until I read it and then I will tell you.</span></strong></p>
 <table style="border: none; border-collapse: collapse;">
