@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Parker Lot Lost</title>
+  <title>The Intern Opens His Eyes</title>
   <link rel="stylesheet" href="index.css">
   <link rel="icon" href="alt.ico" />
   <script src="page.js"></script>
@@ -66,25 +66,49 @@
     }
 
     window.onload = () => {
-      initBlorbos(["shot", "_"], true)
+      //initBlorbos(["shot", "_"], true)
     }
 
     let once = false;
     window.onclick = () => {
       if (!once) {
+        const story = document.querySelector("#story");
         document.querySelector("#muzak").play();
-        document.querySelector("#story").style.display = "block";
+        story.style.display = "block";
         document.querySelector("#euphoria").style.display = "none";
 
+        let img = document.createElement("img");
+        img.src = "WitnessByGuideOfHunters/Arm1.png";
+        story.append(img)
+        
         const page1 = new Page(1, page1Content);
         const page2 = new Page(2, page2Content);
         const page3 = new Page(3, page3Content);
         const page4 = new Page(4, page4Content);
+        const page5 = new Page(5, page5Content);
+        const page6 = new Page(6, page6Content);
+        const page7 = new Page(7, page7Content);
 
-        page1.render(document.querySelector("#story"));
-        page2.render(document.querySelector("#story"));
-        page3.render(document.querySelector("#story"));
-        page4.render(document.querySelector("#story"));
+        page1.render(story);
+        img = document.createElement("img");
+        img.src = "WitnessByGuideOfHunters/Arm2.png";
+        story.append(img)
+        page2.render(story);
+        img = document.createElement("img");
+        img.src = "WitnessByGuideOfHunters/Arm3.png";
+        story.append(img)
+        page3.render(story);
+        
+        page4.render(story);
+        img = document.createElement("img");
+        img.src = "WitnessByGuideOfHunters/Arm4.png";
+        story.append(img)
+        page5.render(story);
+        page6.render(story);
+        img = document.createElement("img");
+        img.src = "WitnessByGuideOfHunters/Opens_His_Eyes.gif";
+        story.append(img)
+        page7.render(story);
 
         once = true;
       }
@@ -95,16 +119,15 @@
 
 
 <body>
-  <img src="grunge-texture-scratched-wall-rough-dirty-graphic-design-free-5.jpg" id="fake-background"></div>
 
   <audio id="muzak">
     <source
-      src="http://farragofiction.com/CodexOfRuin/MallMusicMuzakMallOf1974/Mall%20Music%20Muzak%20-%20Mall%20Of%201974%20-%2013%20Parking%20Lot%20Lost.mp3"
+      src="http://farragofiction.com/CodexOfRuin/MallMusicMuzakMallOf1974/Mall%20Music%20Muzak%20-%20Mall%20Of%201974%20-%2006%20The%20Fountain%20Of%20Life.mp3"
       type="audio/mpeg">
     If you're reading this, audio isn't supported.
   </audio>
 
-  <button id="euphoria">Click To Give Report</button>
+  <button id="euphoria">Click To See</button>
 
   <div id="story">
 
