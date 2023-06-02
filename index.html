@@ -110,6 +110,10 @@
         story.append(img)
         page7.render(story);
 
+        let credits = document.createElement("div");
+        credits.innerHTML = '<b>writing/coding</b>: JR<br><b>art</b>: Guide of Hunters';
+        story.append(credits)
+
         once = true;
       }
 
@@ -129,7 +133,7 @@
 
   <button id="euphoria">Click To See</button>
 
-  <div id="story">
+  <div data-jr-note="http://farragofiction.com/TheInternOpensHisEyes/ParkingLot/ was a mistake" id="story">
 
   </div>
   </div>
